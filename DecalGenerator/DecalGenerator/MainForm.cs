@@ -9,5 +9,10 @@ namespace DecalGenerator
       {
          InitializeComponent();
       }
+
+      private void MainForm_Load( object sender, EventArgs e )
+      {
+         BackgroundImage = DecalGenerator.Create( 10 );
+      }
    }
 }
