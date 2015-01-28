@@ -28,9 +28,21 @@
       /// </summary>
       private void InitializeComponent()
       {
-         this.components = new System.ComponentModel.Container();
+         this.SuspendLayout();
+         // 
+         // MainForm
+         // 
+         this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
          this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         this.Text = "MainForm";
+         this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+         this.ClientSize = new System.Drawing.Size(368, 346);
+         this.MaximizeBox = false;
+         this.MinimizeBox = false;
+         this.Name = "MainForm";
+         this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+         this.Text = "Jump Babylon Decal Generator";
+         this.ResumeLayout(false);
+
       }
 
       #endregion
