@@ -20,6 +20,8 @@ namespace RuneCircleGenerator
          return bitmap;
       }
 
+      #region IDisposable members
+
       public void Dispose()
       {
          Dispose( true );
@@ -33,5 +35,7 @@ namespace RuneCircleGenerator
             _transparentBrush?.Dispose();
          }
       }
+
+      #endregion
    }
 }
