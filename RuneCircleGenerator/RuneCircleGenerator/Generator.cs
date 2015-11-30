@@ -15,10 +15,14 @@ namespace RuneCircleGenerator
 
          using ( var g = Graphics.FromImage( bitmap ) )
          {
+            FillWithTransparency( g );
          }
 
          return bitmap;
       }
+
+      private void FillWithTransparency( Graphics g )
+         => g.FillRectangle( _transparentBrush, 0, 0, _textureSize, _textureSize );
 
       #region IDisposable members
 
