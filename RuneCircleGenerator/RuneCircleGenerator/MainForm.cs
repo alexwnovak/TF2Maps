@@ -11,7 +11,10 @@ namespace RuneCircleGenerator
 
       private void MainForm_Load( object sender, System.EventArgs e )
       {
-         BackgroundImage = Generator.GenerateRuneCircle();
+         using ( var generator = new Generator() )
+         {
+            BackgroundImage = generator.GenerateRuneCircle();
+         }
       }
    }
 }

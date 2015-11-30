@@ -1,12 +1,15 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 
 namespace RuneCircleGenerator
 {
-   public static class Generator
+   public class Generator : IDisposable
    {
       private const int _textureSize = 1024;
 
-      public static Image GenerateRuneCircle()
+      private SolidBrush _transparentBrush = new SolidBrush( Color.Transparent );
+
+      public Image GenerateRuneCircle()
       {
          var bitmap = new Bitmap( _textureSize, _textureSize );
 
@@ -15,6 +18,20 @@ namespace RuneCircleGenerator
          }
 
          return bitmap;
-      } 
+      }
+
+      public void Dispose()
+      {
+         Dispose( true );
+         GC.SuppressFinalize( this );
+      }
+
+      private void Dispose( bool disposing )
+      {
+         if ( disposing )
+         {
+            _transparentBrush?.Dispose();
+         }
+      }
    }
 }
