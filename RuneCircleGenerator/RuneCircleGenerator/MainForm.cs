@@ -15,6 +15,8 @@ namespace RuneCircleGenerator
          {
             BackgroundImage = generator.GenerateRuneCircle();
          }
+
+         BackgroundImage.Save( @"C:\Temp\Ring.png" );
       }
    }
 }
