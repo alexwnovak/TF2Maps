@@ -8,7 +8,7 @@ namespace RuneCircleGenerator
    public class Generator : IDisposable
    {
       private const int _textureSize = 1024;
-      private const int _symbolCount = 24;
+      private const int _symbolCount = 20;
       private static readonly float _penWidth = _textureSize * 0.016f;
       private static readonly float _fontSize = _textureSize * 0.065f;
 
@@ -41,12 +41,13 @@ namespace RuneCircleGenerator
          float radius = _textureSize / 2 * 0.84f;
          float centerX = _textureSize / 2;
          float centerY = _textureSize / 2;
+         var symbols = GetSymbols();
 
-         using ( var font = new Font( "Segoe UI", _fontSize ) )
+         using ( var font = new Font( "Meroitic - Hieroglyphics", _fontSize, FontStyle.Bold ) )
          {
             for ( int index = 0; index < _symbolCount; index++ )
             {
-               char character = 'Z';
+               char character = symbols[index];
                float arc = 360f / _symbolCount;
                float thetaDegrees = arc * index;
                float thetaRadians = AsRadians( thetaDegrees );
@@ -67,6 +68,33 @@ namespace RuneCircleGenerator
                g.ResetTransform();
             }
          }
+      }
+
+      private static char[] GetSymbols()
+      {
+         return new[]
+         {
+            'A',  // 1
+            'B',
+            'C',
+            'D',
+            'E',  // 5
+            'G',
+            'I',
+            'J',
+            'K',
+            'L',  // 10
+            'M',
+            'N',
+            'O',
+            'P',
+            'Q',  // 15
+            'R',
+            'T',
+            'U',
+            'W',
+            'Y',  // 20
+         };
       }
 
       private float AsRadians( float theta )
