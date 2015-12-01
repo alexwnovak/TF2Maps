@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Windows.Forms;
 
 namespace RuneCircleGenerator
 {
@@ -9,7 +10,7 @@ namespace RuneCircleGenerator
          InitializeComponent();
       }
 
-      private void MainForm_Load( object sender, System.EventArgs e )
+      private void MainForm_Load( object sender, EventArgs e )
       {
          using ( var generator = new Generator() )
          {
