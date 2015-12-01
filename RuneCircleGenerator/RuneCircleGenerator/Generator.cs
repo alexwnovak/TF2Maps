@@ -39,18 +39,27 @@ namespace RuneCircleGenerator
 
          using ( var font = new Font( "Segoe UI", _fontSize ) )
          {
-            char character = 'Z';
-
             for ( int index = 0; index < _symbolCount; index++ )
             {
+               char character = 'Z';
                float arc = 360f / _symbolCount;
-               float theta = AsRadians( arc * index );
-               var characterSize = MeasureCharacter( g, font, character );
+               float thetaDegrees = arc * index;
+               float thetaRadians = AsRadians( thetaDegrees );
 
-               float x = centerX + (float) Math.Cos( theta ) * radius - characterSize.Width / 2;
-               float y = centerY + (float) Math.Sin( theta ) * radius - characterSize.Height / 2;
+               var characterSize = MeasureCharacter( g, font, character );
+               var centerPoint = new PointF( centerX - characterSize.Width / 2, centerY - characterSize.Height / 2 );
+
+               float x = centerX + (float) Math.Cos( thetaRadians ) * radius;
+               float y = centerY + (float) Math.Sin( thetaRadians ) * radius;
+
+               g.TranslateTransform( x, y );
+               g.RotateTransform( thetaDegrees + 90 );
+
+               g.TranslateTransform( -x, -y );
+               g.TranslateTransform( -( characterSize.Width / 2 ), -( characterSize.Height / 2 ) );
 
                g.DrawString( character.ToString(), font, _greenBrush, x, y );
+               g.ResetTransform();
             }
          }
       }
