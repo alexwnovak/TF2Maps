@@ -6,9 +6,9 @@ namespace RuneCircleGenerator
    public class Generator : IDisposable
    {
       private const int _textureSize = 1024;
-      private const int _symbolCount = 12;
+      private const int _symbolCount = 24;
       private static readonly float _penWidth = _textureSize * 0.016f;
-      private static readonly float _fontSize = _textureSize * 0.074f;
+      private static readonly float _fontSize = _textureSize * 0.065f;
 
       private static Color _greenColor = Color.FromArgb( 255, 156, 255, 134 );
       private SolidBrush _transparentBrush = new SolidBrush( Color.Transparent );
@@ -39,20 +39,24 @@ namespace RuneCircleGenerator
 
          using ( var font = new Font( "Segoe UI", _fontSize ) )
          {
-            float theta = 0;
             char character = 'Z';
 
             for ( int index = 0; index < _symbolCount; index++ )
             {
+               float arc = 360f / _symbolCount;
+               float theta = AsRadians( arc * index );
                var characterSize = MeasureCharacter( g, font, character );
 
                float x = centerX + (float) Math.Cos( theta ) * radius - characterSize.Width / 2;
                float y = centerY + (float) Math.Sin( theta ) * radius - characterSize.Height / 2;
 
-               g.DrawString( "A", font, _greenBrush, x, y );
+               g.DrawString( character.ToString(), font, _greenBrush, x, y );
             }
          }
       }
+
+      private float AsRadians( float theta )
+         => theta * (float) Math.PI / 180f;
 
       private SizeF MeasureCharacter( Graphics g, Font font, char c )
          => g.MeasureString( c.ToString(), font );
@@ -60,7 +64,7 @@ namespace RuneCircleGenerator
       private void RenderRings( Graphics g )
       {
          float outerMargin = _textureSize * 0.02f;
-         float innerMargin = _textureSize * 0.13f;
+         float innerMargin = _textureSize * 0.14f;
 
          g.DrawEllipse( _greenPen, outerMargin, outerMargin, _textureSize - outerMargin * 2, _textureSize - outerMargin * 2 );
          g.DrawEllipse( _greenPen, innerMargin, innerMargin, _textureSize - innerMargin * 2, _textureSize - innerMargin * 2 );
