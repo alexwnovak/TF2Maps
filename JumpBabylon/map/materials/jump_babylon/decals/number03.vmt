@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jump_babylon/decals/number03"
+	"$decal" 1
+	"$decalscale" 0.5
+	"$translucent" 1
+}

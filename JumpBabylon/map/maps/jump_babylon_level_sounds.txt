@@ -1,0 +1,228 @@
+// Disable resupply sound
+
+"Regenerate.Touch"
+{
+  "channel""CHAN_ITEM"
+  "volume""VOL_NORM"
+  "soundlevel""SNDLVL_NONE"
+  "pitch""PITCH_NORM"
+  "wave""vo/null.wav"
+}
+
+"Player.FallDamage"
+{
+  "channel""CHAN_AUTO"
+  "volume""VOL_NORM"
+  "soundlevel""SNDLVL_NONE"
+  "pitch""PITCH_NORM"
+  "wave""vo/null.wav"
+}
+
+// Disable bots resupply sound
+
+"BaseCombatCharacter.AmmoPickup"
+{
+  "channel""CHAN_ITEM"
+  "volume""1"
+  "soundlevel"  "SNDLVL_75dB"
+  "wave""vo/null.wav"
+}
+
+// Demoman cancel pain severe 01
+
+"Demoman.PainSevere01"
+{
+  "channel""CHAN_VOICE"
+  "volume""VOL_NORM"
+  "pitch""PITCH_NORM"
+  "soundlevel""SNDLVL_NONE"
+  "wave""vo/null.wav"
+}
+
+// Demoman cancel pain severe 02
+
+"Demoman.PainSevere02"
+{
+  "channel""CHAN_VOICE"
+  "volume""VOL_NORM"
+  "pitch""PITCH_NORM"
+  "soundlevel""SNDLVL_NONE"
+  "wave""vo/null.wav"
+}
+
+// Demoman cancel pain severe 03
+
+"Demoman.PainSevere03"
+{
+  "channel""CHAN_VOICE"
+  "volume""VOL_NORM"
+  "pitch""PITCH_NORM"
+  "soundlevel""SNDLVL_NONE"
+  "wave""vo/null.wav"
+}
+
+// Demoman cancel pain severe 04
+
+"Demoman.PainSevere04"
+{
+  "channel""CHAN_VOICE"
+  "volume""VOL_NORM"
+  "pitch""PITCH_NORM"
+  "soundlevel""SNDLVL_NONE"
+  "wave""vo/null.wav"
+}
+
+// Demoman stickie beep cancel
+
+"Weapon_StickyBombLauncher.ModeSwitch"
+{
+  "channel""CHAN_WEAPON"
+  "soundlevel""SNDLVL_NONE"
+  "volume""1.0"
+  "wave""vo/null.wav"
+}
+
+// Soldier cancel pain severe 01
+
+"Soldier.PainSevere01"
+{
+  "channel""CHAN_VOICE"
+  "volume""VOL_NORM"
+  "pitch""PITCH_NORM"
+  "soundlevel""SNDLVL_NONE"
+  "wave""vo/null.wav"
+}
+
+// Soldier cancel pain severe 02
+
+"Soldier.PainSevere02"
+{
+  "channel""CHAN_VOICE"
+  "volume""VOL_NORM"
+  "pitch""PITCH_NORM"
+  "soundlevel""SNDLVL_NONE"
+  "wave""vo/null.wav"
+}
+
+// Soldier cancel pain severe 03
+
+"Soldier.PainSevere03"
+{
+  "channel""CHAN_VOICE"
+  "volume""VOL_NORM"
+  "pitch""PITCH_NORM"
+  "soundlevel""SNDLVL_NONE"
+  "wave""vo/null.wav"
+}
+
+// Soldier cancel pain severe 04
+
+"Soldier.PainSevere04"
+{
+  "channel""CHAN_VOICE"
+  "volume""VOL_NORM"
+  "pitch""PITCH_NORM"
+  "soundlevel""SNDLVL_NONE"
+  "wave""vo/null.wav"
+}
+
+// Soldier cancel pain severe 05
+
+"Soldier.PainSevere05"
+{
+  "channel""CHAN_VOICE"
+  "volume""VOL_NORM"
+  "pitch""PITCH_NORM"
+  "soundlevel""SNDLVL_NONE"
+  "wave""vo/null.wav"
+}
+
+// Soldier cancel pain severe 06
+
+"Soldier.PainSevere06"
+{
+  "channel""CHAN_VOICE"
+  "volume""VOL_NORM"
+  "pitch""PITCH_NORM"
+  "soundlevel""SNDLVL_NONE"
+  "wave""vo/null.wav"
+}
+
+"Halloween.PlayerScream"
+{
+  "channel"		"CHAN_VOICE"
+  "volume"		"1.000"
+  "pitch"		"PITCH_NORM"
+  "soundlevel"	"SNDLVL_95dB"
+
+  "rndwave"			
+  {
+    "wave"		"vo/null.wav"
+    "wave"		"vo/null.wav"
+    "wave"		"vo/null.wav"
+    "wave"		"vo/null.wav"
+    "wave"		"vo/null.wav"
+    "wave"		"vo/null.wav"
+    "wave"		"vo/null.wav"
+  }
+}
+
+"Halloween.HeadlessBossSpawn"
+{
+  "channel"		"CHAN_VOICE"
+  "volume"		"1.000"
+  "pitch"		"PITCH_NORM"
+  "soundlevel"	"SNDLVL_150dB"
+  "wave"		"vo/null.wav"
+}
+
+"Halloween.HeadlessBossDeath"
+{
+  "channel"		"CHAN_VOICE"
+  "volume"		"1.000"
+  "pitch"		"PITCH_NORM"
+  "soundlevel"	"SNDLVL_95dB"
+  "wave"		"vo/null.wav"
+}
+
+"Player.YouAreIt"
+{
+  "channel"		"CHAN_STATIC"
+  "volume"		"VOL_NORM"
+  "soundlevel"	"SNDLVL_NONE"
+  "pitch"		"PITCH_NORM"
+  "wave"		"vo/null.wav"
+}
+
+"Player.TaggedOtherIT"
+{
+  "channel"		"CHAN_STATIC"
+  "volume"		"VOL_NORM"
+  "soundlevel"	"SNDLVL_NONE"
+  "pitch"		"PITCH_NORM"
+  "wave"		"vo/null.wav"
+}
+
+"Player.IsNowIT"
+{
+  "channel"		"CHAN_STATIC"
+  "volume"		"VOL_NORM"
+  "soundlevel"	"SNDLVL_95dB"
+  "pitch"		"PITCH_NORM"
+  "wave"		"vo/null.wav"
+}
+
+"Halloween.HeadlessBossLaugh"
+{
+  "channel"		"CHAN_VOICE"
+  "volume"		"1.000"
+  "pitch"		"PITCH_NORM"
+  "soundlevel"	"SNDLVL_95dB"
+  "rndwave"			
+  {
+		"wave"	"vo/null.wav"
+		"wave"	"vo/null.wav"
+		"wave"	"vo/null.wav"
+		"wave"	"vo/null.wav"
+  }
+}
