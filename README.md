@@ -23,9 +23,3 @@ familiarity with Hammer and drove it into a new echelon. However, that took lots
 problem with development was the time I wasted repeating work. If I knew then all the things I learned
 during this map, it would've taken a fraction of the time. But I love the result. It's not perfect,
 but it's so much more than I thought I would accomplish.
-
-## Jump NoName
-
-The first (barely) cohesive map I put together. I was brand new at Hammer and I took a stab at a
-jump map. It has 13 jumps, is fullbright, and is very simple visually. Wouldn't say that I'm proud
-of it, but hey, everyone starts somewhere.

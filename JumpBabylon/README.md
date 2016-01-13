@@ -6,3 +6,5 @@ but _designed_ one. There's a unified visual theme here with custom textures and
 geometry. It's definitely not perfect: there are texture issues here and there, and the skill curve
 gets kind of whack from #9 to #10 (a double, then a tele-sync), among other things. Felt like it was
 well-received.
+
+Check out my [introductory run video on YouTube](https://youtu.be/ZkpTv9rlIbE).
