@@ -17,7 +17,7 @@ but it's so much more than I thought I would accomplish.
 | Path                      | Contents                                                             |
 |---------------------------|----------------------------------------------------------------------|
 | `demos/`                  | These are the raw .dem files I recorded for each jump tutorial video |
-| `demos/TitleCard/`        | The Paint.NET project for the jump tutorial video's intro image      |
+| `--/TitleCard`            | The Paint.NET project for the jump tutorial video's intro image      |
 | `map/`                    | The original map resources for Hammer (VMF, materials, etc.)         |
 | `src/`                    | Any code I wrote to generate/build stuff for the map                 |
 | `--RuneCircleGenerator/`  | Generates the teleport ring's texture                                |
