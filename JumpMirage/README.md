@@ -18,6 +18,16 @@ but it's so much more than I thought I would accomplish.
 |---------------------------|----------------------------------------------------------------------|
 | `demos/`                  | These are the raw .dem files I recorded for each jump tutorial video |
 | `--/TitleCard`            | The Paint.NET project for the jump tutorial video's intro image      |
+| `jumpthrough/`            | Contains the .dem file used for the YouTube jumpthrough intro video  |
 | `map/`                    | The original map resources for Hammer (VMF, materials, etc.)         |
+| `--/Content/`             | The materials, models and configuration that packs into the map      |
+| `--/Models/`              | The original VMF map files that contain the original models          |
+| `--/CopyAssets.bat`       | Copies the /Content stuff into the TF2 directory for use             |
+| `--/DisableAssets.bat`    | Moves the copied TF2 content out of the way, but doesn't delete it   |
+| `--/EnableAssets.bat`     | Moves the copied TF2 content INTO the right names for use            |
+| `--/RemoveContent.bat`    | Deletes the content out of the TF2 directory for clean-slate testing |
+| `--/FileList.txt`         | A manifest of all the files that need to get packed into the BSP     |
+| `--/Pack.bat`             | Packs the compiled BSP with all the /Content files for distribution  |
+| `--/jump_mirage.vmf`      | The actual source map for jump_mirage                                |
 | `src/`                    | Any code I wrote to generate/build stuff for the map                 |
-| `--RuneCircleGenerator/`  | Generates the teleport ring's texture                                |
+| `--/RuneCircleGenerator/` | A small C# project that generates the teleport ring's texture        |
