@@ -30,4 +30,5 @@ but it's so much more than I thought I would accomplish.
 | `--/Pack.bat`             | Packs the compiled BSP with all the /Content files for distribution  |
 | `--/jump_mirage.vmf`      | The actual source map for jump_mirage                                |
 | `src/`                    | Any code I wrote to generate/build stuff for the map                 |
-| `--/RuneCircleGenerator/` | A small C# project that generates the teleport ring's texture        |
+| `--/NumberGenerator/`     | C# project that generates jump number decals                         |
+| `--/RuneCircleGenerator/` | C# project that generates the teleport ring's texture                |
