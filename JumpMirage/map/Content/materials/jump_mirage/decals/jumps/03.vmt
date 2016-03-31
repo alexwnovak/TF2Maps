@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jump_mirage/decals/jumps/03"
+	"$bumpmap" "jump_mirage/decals/jumps/03_normal"
+}
