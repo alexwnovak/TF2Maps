@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jump_mirage/Sand04"
+	"$bumpmap" "jump_mirage/Sand04_normal"
+	"$surfaceprop" "sand"
+}

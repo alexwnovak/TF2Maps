@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jump_mirage/Decals/Watching"
+    "$decal" 1
+	"$decalscale" 0.5
+	"$translucent" 1
+}

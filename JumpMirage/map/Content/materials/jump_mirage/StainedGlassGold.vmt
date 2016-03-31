@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "jump_mirage/StainedGlassGold"
+	"$selfillum" "1"
+}

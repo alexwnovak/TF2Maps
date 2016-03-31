@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "jump_mirage/brick"
+	"$bumpmap" "jump_mirage/Brick_normal"
+}

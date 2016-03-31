@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "jump_mirage/Decals/RuneCircleGold"
+	"$translucent" "1"
+	"$selfillum" "1"
+}
