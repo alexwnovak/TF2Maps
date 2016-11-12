@@ -1,4 +1,6 @@
 ﻿using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Text;
 
 namespace NumberGenerator
 {
@@ -12,6 +14,8 @@ namespace NumberGenerator
 
          using ( Graphics g = Graphics.FromImage( bitmap ) )
          {
+            g.SmoothingMode = SmoothingMode.HighQuality;
+            g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
          }
 
          return bitmap;
