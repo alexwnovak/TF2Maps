@@ -23,9 +23,34 @@ namespace NumberGenerator
             DrawCompleteRing( g );
             DrawDots( g, number, max );
             DrawArc( g, number, max );
+            DrawDigit( g, number );
          }
 
          return bitmap;
+      }
+
+      private static void DrawDigit( Graphics g, int number )
+      {
+         const string fontFamily = "Segoe UI";
+         const int fontSize = 80;
+
+         using ( var font = new Font( fontFamily, fontSize ) )
+         using ( var stringFormat = new StringFormat { Alignment = StringAlignment.Center, LineAlignment = StringAlignment.Center } )
+         {
+            string text = number.ToString();
+            var size = g.MeasureString( text, font );
+
+            float x = ( _decalSize - size.Width ) / 2;
+            float y = ( _decalSize - size.Height ) / 2;
+
+            using ( var graphicsPath = new GraphicsPath() )
+            using ( var pen = new Pen( Color.Black, 5 ) { LineJoin = LineJoin.Round } )
+            {
+               graphicsPath.AddString( text, new FontFamily( fontFamily ), (int) FontStyle.Regular, fontSize, new RectangleF( 0, 0, _decalSize, _decalSize ), stringFormat );
+               g.DrawPath( pen, graphicsPath );
+               g.FillPath( Brushes.White, graphicsPath );
+            }
+         }
       }
 
       private static void DrawArc( Graphics g, int number, int count )
