@@ -22,9 +22,20 @@ namespace NumberGenerator
             FillWithTransparency( g );
             DrawCompleteRing( g );
             DrawDots( g, number, max );
+            DrawArc( g, number, max );
          }
 
          return bitmap;
+      }
+
+      private static void DrawArc( Graphics g, int number, int count )
+      {
+         using ( var pen = new Pen( Color.White, 6 ) )
+         {
+            float thetaDegrees = number * 360 / count;
+
+            g.DrawArc( pen, _margin, _margin, _decalSize - _margin * 2, _decalSize - _margin * 2, -90, thetaDegrees );
+         }
       }
 
       private static void DrawDots( Graphics g, int number, int count )
