@@ -90,6 +90,14 @@ I hope to keep up this tradition in future maps. I'd love to see the community r
 This way, instruction is self-contained. For those markers, you have to play on certain servers, and
 dedicated folks have to create those tutorials. Might as well be the map author!
 
+Another change I tried out here was the jump numbering. Like usual, I wrote some C# to generate the
+images since it involved geometry. The design change is that I wanted to incorporate the _total_
+number of jumps somehow. This worked out great--the dotted ring around the number indicates your
+progress (basically like a radial progress bar). You can count them based on where you are, and figure
+out the total number of jumps. This removes that "HOW MUCH FARTHER IS IT" discomfort I get when
+jumping on new maps. There's no reason to keep the player in the dark, so we might as well clue them
+in.
+
 # In this folder
 
 | Path                      | Contents                                                             |
