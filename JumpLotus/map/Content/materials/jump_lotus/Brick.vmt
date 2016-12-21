@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jump_lotus/Brick"
+	"$bumpmap" "jump_lotus/Brick_normal"
+}
