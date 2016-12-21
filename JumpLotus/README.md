@@ -50,7 +50,7 @@ structure and feel of each jump, not to make it look good.
 
 One major change I also did was _not_ launching TF2 after each compile. Instead, I un-checked
 the "Run" option and only did compiles. I _left TF2 running_ in another window, and would
-Alt+Tab in and out. After a build, I'd switch to TF2 and "map <thing.vmf>". This saved me
+Alt+Tab in and out. After a build, I'd switch to TF2 and reload with a "map" command. This saved me
 _loads_ of time, not waiting for the game to load constantly.
 
 **2. Route the map**
