@@ -1,1 +1,0 @@
-bspzip -addorupdatelist C:\TF2\Maps\JumpMirage\jump_mirage.bsp C:\TF2\Maps\JumpMirage\filelist.txt C:\TF2\Maps\JumpMirage\jump_mirage.bsp
