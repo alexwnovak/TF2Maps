@@ -12,3 +12,9 @@ down and open it up in Hammer. You can think of this like open source maps.
 - [jump_babylon](https://github.com/alexwnovak/TF2Maps/releases/download/jump_babylon/jump_babylon.zip), released February 1, 2015
 - [jump_noname_a2](https://github.com/alexwnovak/TF2Maps/releases/download/jump_noname_a2/jump_noname_a2.zip), released May 20, 2014
 - [jump_noname_a1](https://github.com/alexwnovak/TF2Maps/releases/download/jump_noname_a1/jump_noname_a1.zip), released May 16, 2014
+
+## License
+
+All this stuff is under the [MIT license](https://github.com/alexwnovak/TF2Maps/blob/master/LICENSE). This means that you can modify it for yourself, as
+long as you keep my name as it appears in all the places.
+ 
