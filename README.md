@@ -10,8 +10,9 @@ down and open it up in Hammer. You can think of this like open source maps.
 - [jump_lotus](https://github.com/alexwnovak/TF2Maps/releases/download/jump_lotus/jump_lotus.bsp), released December 25, 2016
 - [jump_mirage](https://github.com/alexwnovak/TF2Maps/releases/download/jump_mirage/jump_mirage.zip), released April 1, 2016
 - [jump_babylon](https://github.com/alexwnovak/TF2Maps/releases/download/jump_babylon/jump_babylon.zip), released February 1, 2015
-- [jump_noname_a2](https://github.com/alexwnovak/TF2Maps/releases/download/jump_noname_a2/jump_noname_a2.zip), released May 20, 2014
-- [jump_noname_a1](https://github.com/alexwnovak/TF2Maps/releases/download/jump_noname_a1/jump_noname_a1.zip), released May 16, 2014
+- jump_noname
+   * [Alpha 2](https://github.com/alexwnovak/TF2Maps/releases/download/jump_noname_a2/jump_noname_a2.zip), released May 20, 2014
+   * [Alpha 1](https://github.com/alexwnovak/TF2Maps/releases/download/jump_noname_a1/jump_noname_a1.zip), released May 16, 2014
 
 ## License
 
