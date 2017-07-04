@@ -1,0 +1,1 @@
+bspzip -addorupdatelist C:\TF2\Maps\jump_manitou\jump_manitou.bsp C:\TF2\Maps\jump_manitou\filelist.txt C:\TF2\Maps\jump_manitou\jump_manitou.bsp

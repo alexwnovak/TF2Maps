@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "construction/concrete/concretefresh001"
+                "$bumpmap" "construction/concrete/concretefresh001_ssbump"
+	"%keywords" "tf"
+	"$detail" "overlays/detail001"
+	"$detailscale" "1.9"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+                "$ssbump" "1"
+
+}

@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_construction/Ibeam"
+	"$bumpmap" "models/effects/flat_normal" 
+	"$surfaceprop" "Metal"
+
+	"$blendtintbybasealpha" "1" 
+	"$blendtintcoloroverbase" "0"   // between 0-1 determines how much blended by tinting vs. replacing the color
+
+	"$colortint_base" "{128 128 128}"
+	"$colortint_tmp" "[0 0 0]"
+	"$color2" "{210 200 190}"
+
+
+	"$phong" "1"
+	"$phongexponent" "0"
+	"$phongboost" ".0"
+	"$phongfresnelranges"	"[2 10 20]"
+	"$basemapalphaphongmask" "1"
+
+}
