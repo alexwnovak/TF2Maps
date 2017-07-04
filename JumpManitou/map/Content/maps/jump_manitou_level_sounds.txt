@@ -1,0 +1,175 @@
+//===========================================================================
+// Level Sounds
+// ------------
+// This "disables" various sounds that get irritating or repetitive:
+//   - Fall damage
+//   - Resupply
+//   - Soldier pain sounds
+//   - Demoman pain sounds
+//   - Demoman sticky detonation beep
+//
+// Note that instead of redirecting to the typical vo/null.wav, we indicate
+// the CORRECT sound file, but instead set all the volumes to 0. This way we
+// don't get tons of missing file errors in the console.
+//===========================================================================
+
+//====================
+// Fall damage sound
+//====================
+
+"Player.FallDamage"
+{
+  "channel"		"CHAN_AUTO"
+  "volume"		"0"
+  "pitch"		"90,110"
+  "soundlevel"	"SNDLVL_NORM"
+  
+  "rndwave"
+  {
+  	"wave"		"player/pl_fallpain1.wav"
+  	"wave"		"player/pl_fallpain3.wav"
+  }
+}
+
+//=================
+// Resupply sound
+//=================
+
+"Regenerate.Touch"
+{
+  "channel"     "CHAN_ITEM"
+  "volume"      "0"
+  "soundlevel"  "SNDLVL_NONE"
+  "pitch"       "PITCH_NORM"
+  "wave"        "items/regenerate.wav"
+}
+
+//======================
+// Soldier pain sounds
+//======================
+
+"Soldier.PainSevere01"
+{
+  "channel"     "CHAN_VOICE"
+  "volume"      "0"
+  "pitch"       "PITCH_NORM"
+  "soundlevel"  "SNDLVL_NONE"
+  "wave"        "items/regenerate.wav"
+}
+
+"Soldier.PainSevere02"
+{
+  "channel"     "CHAN_VOICE"
+  "volume"      "0"
+  "pitch"       "PITCH_NORM"
+  "soundlevel"  "SNDLVL_NONE"
+  "wave"        "items/regenerate.wav"
+}
+
+"Soldier.PainSevere03"
+{
+  "channel"     "CHAN_VOICE"
+  "volume"      "0"
+  "pitch"       "PITCH_NORM"
+  "soundlevel"  "SNDLVL_NONE"
+  "wave"        "items/regenerate.wav"
+}
+
+"Soldier.PainSevere04"
+{
+  "channel"     "CHAN_VOICE"
+  "volume"      "0"
+  "pitch"       "PITCH_NORM"
+  "soundlevel"  "SNDLVL_NONE"
+  "wave"        "items/regenerate.wav"
+}
+
+"Soldier.PainSevere05"
+{
+  "channel"     "CHAN_VOICE"
+  "volume"      "0"
+  "pitch"       "PITCH_NORM"
+  "soundlevel"  "SNDLVL_NONE"
+  "wave"        "items/regenerate.wav"
+}
+
+"Soldier.PainSevere06"
+{
+  "channel"     "CHAN_VOICE"
+  "volume"      "0"
+  "pitch"       "PITCH_NORM"
+  "soundlevel"  "SNDLVL_NONE"
+  "wave"        "items/regenerate.wav"
+}
+
+//======================
+// Demoman pain sounds
+//======================
+
+"Demoman.PainSevere01"
+{
+  "channel"     "CHAN_VOICE"
+  "volume"      "0"
+  "pitch"       "PITCH_NORM"
+  "soundlevel"  "SNDLVL_NONE"
+  "wave"        "items/regenerate.wav"
+}
+
+"Demoman.PainSevere02"
+{
+  "channel"     "CHAN_VOICE"
+  "volume"      "0"
+  "pitch"       "PITCH_NORM"
+  "soundlevel"  "SNDLVL_NONE"
+  "wave"        "items/regenerate.wav"
+}
+
+"Demoman.PainSevere03"
+{
+  "channel"     "CHAN_VOICE"
+  "volume"      "0"
+  "pitch"       "PITCH_NORM"
+  "soundlevel"  "SNDLVL_NONE"
+  "wave"        "items/regenerate.wav"
+}
+
+"Demoman.PainSevere04"
+{
+  "channel"     "CHAN_VOICE"
+  "volume"      "0"
+  "pitch"       "PITCH_NORM"
+  "soundlevel"  "SNDLVL_NONE"
+  "wave"        "items/regenerate.wav"
+}
+
+//=================================
+// Demoman sticky detonation beep
+//=================================
+
+"Weapon_StickyBombLauncher.ModeSwitch"
+{
+  "channel"     "CHAN_WEAPON"
+  "volume"      "0"
+  "soundlevel"  "SNDLVL_NONE"
+  "wave"        "items/regenerate.wav"
+}
+
+//===============
+// Death sounds
+//===============
+
+"Soldier.Death"
+{
+  "channel"     "CHAN_VOICE"
+  "volume"      "0"
+  "soundlevel"  "SNDLVL_95dB"
+  "wave"        "vo/soldier_PainSevere01.mp3"
+}
+
+"Demoman.Death"
+{
+  "channel"     "CHAN_VOICE"
+  "volume"      "0"
+  "soundlevel"  "SNDLVL_95dB"
+  "wave"        "vo/soldier_PainSevere01.mp3"
+}

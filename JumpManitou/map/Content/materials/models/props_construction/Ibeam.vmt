@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_construction/Ibeam"
+	"$surfaceprop" "Metal"
+
+	"$phong" "1"
+	"$phongexponent" "0"
+	"$phongboost" ".0"
+	"$phongfresnelranges"	"[2 10 20]"
+	"$basemapalphaphongmask" "1"
+
+}

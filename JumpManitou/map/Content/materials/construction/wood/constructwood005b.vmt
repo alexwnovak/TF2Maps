@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "construction/wood/constructwood005"
+	"$surfaceprop" "wood"
+	"$detail" "overlays/detail003"
+	"$detailscale" "1"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "2.5"
+	"%keywords" "tf"
+}

@@ -7,6 +7,7 @@ down and open it up in Hammer. You can think of this like open source maps.
 
 ## Downloads
 
+- [jump_manitou](https://github.com/alexwnovak/TF2Maps/releases/download/jump_manitou/jump_manitou.bsp), released July 4, 2017
 - [jump_lotus](https://github.com/alexwnovak/TF2Maps/releases/download/jump_lotus/jump_lotus.bsp), released December 25, 2016
 - [jump_mirage](https://github.com/alexwnovak/TF2Maps/releases/download/jump_mirage/jump_mirage.zip), released April 1, 2016
 - [jump_babylon](https://github.com/alexwnovak/TF2Maps/releases/download/jump_babylon/jump_babylon.zip), released February 1, 2015
