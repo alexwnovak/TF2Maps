@@ -1,7 +1,9 @@
 Jump Manitou
 ============
 
-My fourth official map, and as usual, I tried to do new things I hadn't before.
+My fourth official map, and as usual, I tried to do new things I hadn't before. Production
+ran from January 19, 2017 through July 4, 2017, clocking in at 97 total hours. See the
+[Time Sheet](timesheet.pdf) for a breakdown of where the time went.
 
 # The Concept
 
@@ -95,10 +97,14 @@ Depending on who you ask, ctaps are good or evil, but they're powerful.
 
 | Path                      | Contents                                                             |
 |---------------------------|----------------------------------------------------------------------|
-| `jumpthrough/`            | Contains the .dem file used for the YouTube jumpthrough intro video  |
+| `demo/`                   | Contains the demo material for the YouTube jumpthrough intro video   |
 | `map/`                    | The original map resources for Hammer (VMF, materials, etc.)         |
+| `--/Assets/`              | The source material for the custom textures and decals               |
 | `--/Content/`             | The materials, models and configuration that packs into the map      |
 | `--/CopyContent.bat`      | Copies the /Content stuff into the TF2 directory for use             |
 | `--/RemoveContent.bat`    | Deletes the content out of the TF2 directory for clean-slate testing |
 | `--/SyncProps.bat`        | Copies the compiled props from Propper into the Content directory    |
+| `--/FileList.txt`         | The "pack list" of all additional resources used by the map          |
+| `--/Pack.bat`             | Packs all additional map resources into the .bsp for delivery        |
 | `--/jump_manitou.vmf`     | The actual Hammer map                                                |
+| `TimeSheet.pdf`           | A record I kept of the time I spent building the map                 |
