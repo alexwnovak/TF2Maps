@@ -3,7 +3,7 @@ Jump Manitou
 
 My fourth official map, and as usual, I tried to do new things I hadn't before. Production
 ran from January 19, 2017 through July 4, 2017, clocking in at 97 total hours. See the
-[Time Sheet](timesheet.pdf) for a breakdown of where the time went.
+[Time Sheet](https://github.com/alexwnovak/TF2Maps/raw/master/JumpManitou/TimeSheet.pdf) for a breakdown of where the time went.
 
 # The Concept
 
