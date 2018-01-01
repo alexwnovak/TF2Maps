@@ -1,9 +1,7 @@
 TF2 Jump Maps
 =============
 
-Here you'll find official builds of my maps, along with their "source"--the original VMFs, and
-custom content (materials, sounds, etc). If you're curious how something works, you can pull it
-down and open it up in Hammer. You can think of this like open source maps.
+Here you'll find official builds of my maps, along with their "source"--the original VMFs, and custom content (materials, sounds, etc). If you're curious how something works, you can pull it down and open it up in Hammer. You can think of this like open source maps.
 
 ## Downloads
 
@@ -18,6 +16,5 @@ down and open it up in Hammer. You can think of this like open source maps.
 
 ## License
 
-All this stuff is under the [MIT license](https://github.com/alexwnovak/TF2Maps/blob/master/LICENSE). This means that you can modify it for yourself, as
-long as you keep my name as it appears in all the places.
+All this stuff is under the [MIT license](https://github.com/alexwnovak/TF2Maps/blob/master/LICENSE). This means that you can modify it for yourself, as long as you keep my name as it appears in all the places.
  
