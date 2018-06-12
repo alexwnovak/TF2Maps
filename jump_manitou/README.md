@@ -56,7 +56,7 @@ I went a little overboard.
 
 Every room and wall had to have junk on it. I opened up Process, Powerhouse, Badwater, and others
 and copy/pasted props out of them I liked. I put props everywhere. I tried hard to not obstruct
-the jumping experience, and only use them to credence in the environment. But I have plenty of
+the jumping experience, and only use them to add credence in the environment. But I have plenty of
 inconsistency about the types of props (radioactive barrels vs. water barrels). I tried to think
 of what kind facility this map is set in--is it farming? Mining? Construction? I used props from
 all of those settings.
