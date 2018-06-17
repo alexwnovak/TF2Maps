@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jump_sobel/glass"
+	"$translucent" "1"
+	"$surfaceprop" "glass"
+}

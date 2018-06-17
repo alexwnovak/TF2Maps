@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jump_sobel/black_gradient"
+	"$translucent" 1
+}

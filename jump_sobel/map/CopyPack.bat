@@ -1,0 +1,1 @@
+copy Output\jump_sobel.bsp "C:\Program Files (x86)\steam\steamapps\common\Team Fortress 2\tf\maps" /Y

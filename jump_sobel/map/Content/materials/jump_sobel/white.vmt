@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "jump_sobel/white"
+	"$selfillum" "1"
+}

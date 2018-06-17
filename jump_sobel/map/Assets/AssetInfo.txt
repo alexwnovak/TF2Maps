@@ -1,0 +1,12 @@
+Asset Info
+==========
+
+# Text
+
+Font:    Gill Sans MT
+
+# Numbers
+
+Font:    Lato
+Size:    192pt
+Texture: 512x512

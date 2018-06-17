@@ -1,0 +1,83 @@
+Jump Sobel TODO
+=================
+
+# Next
+
+- Final inspection
+
+# Release Stuff
+
+- Pack
+- Make the TAS video
+- Update the repo
+   
+# Done
+
+- Try adding some metal reflecty borders for visual accent
+- Double check solid entrance tops
+- 2 entrance is slightly off grid (see gap in bottom front left corner)
+- 7 entrance leaks light
+- 8 entrance leaks light
+- 9 entrance leaks light
+- Re-inspect all chutes for light-bleed (some do)
+- 10 exit chute bottom is solid
+- Reflections on metal? (Especially door frames) / Capture point reflections?
+   * Seems like it's latching onto the env_cubemap for the capture point
+   * Compile, load, buildcubemaps, disconnect, reload map (takes a second--loading cubemaps??)
+- Lobby entrance to first jump chute bleeds light
+- "Join Red" texture alignment vertically
+- Trigger hurts in addition to func_regen
+- Skip platform on 9 needs details
+- #5 jump is too far
+- Glass pipes on 7 look weird with PURE GLASS
+- Weird triangle light on the other side of #5 entrance
+- Door on 6 has a gap on top
+- Add anti-telesync to each
+- Avoid duplicate spawns
+- Soundscapes
+- Tidy up the lobby
+- Tidy up Blue Spawn
+- 3D Skybox - Skip - It isn't required enough to paint the environment
+- Build the bonus - Skip - I wish, but I don't have the brush capacity :(
+- Frogs may be too dark
+- Spectator angles
+- Manitou prop
+- The capture point won't capture
+- Need lights over the capture point
+- Capture point ramp-to-exit is slightly too high
+- Regen model
+- Jump 10 doesn't have clip brushes!
+- Build the capture point
+   * Details
+   * Use natural lighting to mirror the lobby
+   * FIVE frogs
+- Double-check for dupe spawns/light_env's from copy/pasting
+- Regens for each jump
+- Lobby ceiling lights look dumb
+- Entrance room lights are busted triangles in a couple jumps--back with regular blocks?
+   1. 1L
+   6. 3L
+   9. 3L, 5R
+   10. 4L, 2R
+- Exit platform on #5 sinks into the floor a little bit
+- Fix the launch from #5
+- Hook up the door
+	* Should trigger open on its own
+- Try giving a secondary hexagon inset to the wall pattern--with shiny metal reflections??
+- Add the exit chamber with the chute
+	* Still needs proper lighting
+	* Needs something else to break up the plainness
+- Add more detail to the mid-gray wavy walls at the exit
+- Gussy up the edgebug platform
+	* Give it a better shape (thickness is good I think)
+	* Attach some particles to it to justify it floating on its own
+- Add floor lights to the starting corridor (currently way too dark)
+- Add the entrance chute
+- Figure out a reusable pattern for jump numbers and QR codes maybe?
+- Try less opacity still on the glass texture to let the rock show through
+	* Still want to see the blue tint of the glass though!
+- Overhead lighting in the jump starting
+- MAYBE floor lighting at the chute exit floor
+- Shoot-through walls and player clips
+- Red spawn
+- Blue spawn
