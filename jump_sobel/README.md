@@ -49,6 +49,7 @@ A sobel ("SO-bull") filter is an image processing algorithm that can do _edge de
 
 | Path                      | Contents                                                             |
 |---------------------------|----------------------------------------------------------------------|
+| `demo/`                   | The demo files recorded in-game that went into the intro video       |
 | `map/`                    | The original map resources for Hammer (VMF, materials, etc.)         |
 | `map/Assets/`             | The source material for the custom textures and decals               |
 | `map/Content/`            | The materials, models and configuration that packs into the map      |
