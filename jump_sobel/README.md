@@ -1,7 +1,7 @@
 Jump Sobel
 ==========
 
-My fifth official map. Build cycle ran from June 29, 2017 to ??? with a total of ??? hours. Check out the [Time Sheet](https://github.com/alexwnovak/TF2Maps/raw/master/jump_sobel/TimeSheet.pdf) for the full breakdown.
+My fifth official map. Build cycle ran from June 29, 2017 to June 17, 2018 with a total of about 100 hours. Check out the [Time Sheet](https://github.com/alexwnovak/TF2Maps/raw/master/jump_sobel/TimeSheet.pdf) for the full breakdown. There was a pretty big gap in there (didn't actually take a whole year's worth of time).
 
 # Concept
 
